@@ -12,5 +12,5 @@ echo $output;
 // or just echo the object for direct output
 echo $bessie;
 
-$new = $bessie->setTongue('U');
-echo $new;
+$bessieSetsTongue = $bessie->setTongue('U');
+echo $bessieSetsTongue;
